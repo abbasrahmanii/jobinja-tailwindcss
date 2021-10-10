@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="c-pieTimer" width="16" height="16" viewBox="0 0 16 16">
+                                <path class="c-pieTimer__element--spinner" transform="translate(8, 8) scale(.84)" d="M 0 0 v -8 A 8 8 1 0 1 7.956175162946186 -0.8362277061412277 z"/>
+                            </svg>
