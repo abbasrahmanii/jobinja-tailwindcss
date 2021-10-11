@@ -20,11 +20,12 @@
     @apply text-lg;
   }
 }
+
 @layer components {
   .p-card {
-    @apply text-center mt-3 text-blue-300;
+    @apply text-center mt-3 text-employee font-thin;
   }
   .div-card {
-    @apply border-solid border-2 border-gray-200 flex flex-col items-center p-2;
+    @apply border-solid border-2 border-gray-200 flex flex-col items-center p-1;
   }
 }

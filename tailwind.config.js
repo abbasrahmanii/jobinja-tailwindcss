@@ -17,6 +17,10 @@ module.exports = {
           DEFAULT: "#FFD68A",
           hover: "#FFB833",
         },
+        employee: {
+          DEFAULT: "#3AB1E4",
+          immediate: "#D84A3E",
+        },
       },
     },
   },

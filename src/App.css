@@ -39,3 +39,9 @@
 .t-gradient {
   @apply bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-red-100;
 }
+
+.card-hover {
+  p {
+    color: red;
+  }
+}
