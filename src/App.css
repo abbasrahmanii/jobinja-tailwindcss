@@ -39,9 +39,15 @@
 .t-gradient {
   @apply bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-red-100;
 }
+.faq-div {
+  @apply relative bg-nav-active hover:bg-nav text-gray-100 cursor-pointer p-3 text-lg border-b border-nav;
+}
+.faq-li {
+  @apply bg-nav-li text-gray-100 p-1 px-3 text-lg border-b border-nav hover:bg-nav;
+}
 
-.card-hover {
+/* .card-hover {
   p {
     color: red;
   }
-}
+} */

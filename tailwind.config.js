@@ -12,14 +12,17 @@ module.exports = {
         nav: {
           DEFAULT: "#444444",
           active: "#505050",
+          section: "#F5F5F5",
+          li: "#666666",
         },
         button: {
           DEFAULT: "#FFD68A",
           hover: "#FFB833",
         },
         employee: {
-          DEFAULT: "#3AB1E4",
+          DEFAULT: "#25b5f3",
           immediate: "#D84A3E",
+          hover: "#238fbd",
         },
       },
     },
