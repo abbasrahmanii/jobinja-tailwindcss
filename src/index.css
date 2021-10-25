@@ -28,4 +28,7 @@
   .div-card {
     @apply border-solid border-2 border-gray-200 flex flex-col items-center p-1;
   }
+  .error {
+    @apply absolute text-red-500 text-xs;
+  }
 }

@@ -40,14 +40,14 @@
   @apply bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-red-100;
 }
 .faq-div {
-  @apply relative bg-nav-active hover:bg-nav text-gray-100 cursor-pointer p-3 text-lg border-b border-nav;
+  @apply relative bg-nav-active hover:bg-nav text-gray-100 cursor-pointer text-lg border-b border-nav;
 }
 .faq-li {
-  @apply bg-nav-li text-gray-100 p-1 px-3 text-lg border-b border-nav hover:bg-nav;
+  @apply bg-nav-li text-gray-100 p-1 px-3 text-lg border-b border-nav hover:bg-nav cursor-pointer;
 }
-
-/* .card-hover {
-  p {
-    color: red;
-  }
-} */
+.faq-answer {
+  @apply opacity-0 max-h-0 overflow-y-hidden;
+}
+.faq-open {
+  @apply max-h-0 overflow-y-hidden;
+}
