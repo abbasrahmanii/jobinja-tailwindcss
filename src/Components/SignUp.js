@@ -31,7 +31,7 @@ const SignUp = () => {
         }}
         validationSchema={validate}
         onSubmit={(value) => {
-          console.log(value);
+          alert(JSON.stringify(value, null, 2));
         }}
       >
         {(formik) => (
