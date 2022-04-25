@@ -38,7 +38,7 @@ const Footer = () => {
               جابینجا در شبکه های اجتماعی
             </h1>
             <hr className="hidden border-gray-500 lg:block" />
-            <ul class="flex justify-between w-5/12 mx-auto md:m-0 md:w-full py-4  md:space-x-10 md:space-x-reverse lg:-space-x-4 lg:space-x-reverse">
+            <ul className="flex justify-between w-5/12 mx-auto md:m-0 md:w-full py-4  md:space-x-10 md:space-x-reverse lg:-space-x-4 lg:space-x-reverse">
               <li className="w-2/12">
                 <a
                   target="_blank"

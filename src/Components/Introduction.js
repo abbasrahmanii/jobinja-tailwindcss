@@ -37,8 +37,11 @@ const Introduction = () => {
   return (
     <section className="hidden md:block md:py-4 bg-nav-section w-full border border-r-0 border-l-0 my-8">
       <div className="w-3/4 mx-auto flex flex-wrap justify-between">
-        {section.map((sec) => (
-          <div className="md:w-full xl:w-1/3 xl:py-6 xl:px-4 flex items-start justify-around">
+        {section.map((sec, idx) => (
+          <div
+            className="md:w-full xl:w-1/3 xl:py-6 xl:px-4 flex items-start justify-around"
+            key={idx}
+          >
             <img
               src={sec.pic}
               alt={sec.linkTitle}

@@ -16,7 +16,7 @@ import SignupForm from "./Components/SignupForm";
 function App() {
   const location = useLocation();
   return (
-    <div className="min-h-screen font-serif">
+    <div className="min-h-screen" style={{ fontFamily: "Vazir" }}>
       <Switch location={location} key={location.pathname}>
         <Route path="/" exact>
           <Nav />

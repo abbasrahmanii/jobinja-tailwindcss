@@ -134,10 +134,10 @@ const Jobs = () => {
         <h4 className="py-2 px-3 border-b-2 border-gray-300 mb-4 bg-gray-50 text-lg">
           استخدام‌های فوری امروز
         </h4>
-        <section className="flex flex-col space-y-4 lg:flex-row flex-wrap lg:items-start lg:justify-center">
+        <section className="flex flex-col gap-2 lg:flex-row flex-wrap lg:items-start lg:justify-center">
           {jobs.map((job) => (
             <a
-              className="flex relative border-2 border-gray-300 rounded-md mx-4 lg:w-5/12"
+              className="flex relative border-2 border-gray-300 rounded-md mx-4 lg:w-5/12 text-sm"
               key={job.id}
               href="#"
             >

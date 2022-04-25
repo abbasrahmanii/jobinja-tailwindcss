@@ -1,5 +1,5 @@
 import React from "react";
-import { Formik, Form, useField, ErrorMessage } from "formik";
+import { Formik, Form, Field, useField, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
 const SignupForm = () => {
@@ -33,12 +33,13 @@ const SignupForm = () => {
     return (
       <div className="mb-4 ">
         <label htmlFor={field.name}>{label}</label>
-        <input
+        <Field
           {...props}
           {...field}
+          autoComplete="off"
           className={` ${
             meta.touched && meta.error && "border-2 border-red-500"
-          } block w-full rounded-md bg-purple-50 border-2 p-1 placeholder-gray-400`}
+          } block w-full rounded-md bg-purple-50 border-2 p-1 placeholder-gray-400 outline-none`}
         />
         <ErrorMessage name={field.name} component="div" className="error" />
       </div>

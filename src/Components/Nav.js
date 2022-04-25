@@ -17,7 +17,7 @@ import office from "../images/office.png";
 
 const Nav = () => {
   return (
-    <div className="sticky top-0 left-0 z-50 w-full shadow-xl bg-nav">
+    <div className="sticky top-0 left-0 z-50 w-full shadow-xl bg-nav text-sm">
       <header className="container flex justify-between w-full h-20 mx-auto text-white md:container lg:w-9/12 lg:h-16">
         <nav className="flex">
           <ul className="items-center hidden divide-x-2 divide-x-reverse divide-gray-600 lg:flex">

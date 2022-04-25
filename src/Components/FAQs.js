@@ -44,8 +44,10 @@ const Faq = () => {
               transform: "rotateX(-22%)",
             }}
           >
-            {faq.answer.map((list) => (
-              <li className="faq-li">{list.title}</li>
+            {faq.answer.map((list, idx) => (
+              <li className="faq-li" key={idx}>
+                {list.title}
+              </li>
             ))}
           </ul>
         </section>
