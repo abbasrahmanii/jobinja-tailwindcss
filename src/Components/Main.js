@@ -42,7 +42,7 @@ const Main = () => {
               color="gray"
             />
             <select
-              className="hidden text-gray-600 border-none outline-none w-72 lg:w-60 lg:inline"
+              className="hidden text-gray-600 border-none outline-none w-72 lg:w-60 lg:inline cursor-pointer"
               name="city"
               id="city-select"
             >
@@ -58,7 +58,7 @@ const Main = () => {
           <div className="items-center hidden p-4 bg-white rounded-sm lg:flex">
             <FontAwesomeIcon icon={faBars} className="ml-4" color="gray" />
             <select
-              className="text-gray-600 outline-none w-72 lg:w-60 border-nonehidden lg:inline"
+              className="text-gray-600 outline-none w-72 lg:w-60 border-nonehidden lg:inline cursor-pointer"
               name="category"
               id="category-select"
             >

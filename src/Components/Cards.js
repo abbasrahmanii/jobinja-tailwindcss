@@ -18,12 +18,12 @@ const Cards = () => {
   ];
   return (
     <main className="w-full bg-white mb-10">
-      <section className="container mx-auto md:w-3/4 xl:py-8 flex flex-wrap justify-between items-center cursor-pointer space-x-4 space-y-6">
+      <section className="container mx-auto md:w-3/4 xl:py-8 grid grid-cols-3 lg:grid-cols-6 justify-between items-center cursor-pointer gap-4">
         {cardItems.map((card) => (
-          <a key={card.id} className="mt-6" href="#">
-            <div className="div-card">
+          <a key={card.id} className="mt-6" href="https://jobinja.ir">
+            <div className="div-card p-2">
               <img src={card.pic} alt={card.title} className="w-2/3" />
-              <p className="p-card">{card.title}</p>
+              <p className="p-card h-5 w-max">{card.title}</p>
             </div>
           </a>
         ))}

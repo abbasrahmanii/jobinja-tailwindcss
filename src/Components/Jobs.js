@@ -134,12 +134,13 @@ const Jobs = () => {
         <h4 className="py-2 px-3 border-b-2 border-gray-300 mb-4 bg-gray-50 text-lg">
           استخدام‌های فوری امروز
         </h4>
-        <section className="flex flex-col gap-2 lg:flex-row flex-wrap lg:items-start lg:justify-center">
+        {/* <section className="flex flex-col gap-2 lg:flex-row flex-wrap lg:items-start lg:justify-center"> */}
+        <section className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {jobs.map((job) => (
             <a
-              className="flex relative border-2 border-gray-300 rounded-md mx-4 lg:w-5/12 text-sm"
+              className="flex relative border-2 border-gray-300 rounded-md mx-4 text-sm"
               key={job.id}
-              href="#"
+              href="https://jobinja.ir"
             >
               <div className="p-4">
                 <p className=" text-employee font-light ml-7">{job.title}</p>

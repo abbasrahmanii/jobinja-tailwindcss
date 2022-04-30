@@ -14,7 +14,7 @@ module.exports = {
           active: "#505050",
           section: "#F5F5F5",
           li: "#666666",
-          footer:"#999999",
+          footer: "#999999",
         },
         button: {
           DEFAULT: "#FFD68A",
@@ -29,14 +29,12 @@ module.exports = {
     },
   },
   variants: {
-    extend: { 
+    extend: {
       backgroundColor: ["active"],
-      // backgroundOpacity: ['active'],
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-rtl")],
   corePlugins: {
-    // ...
     backgroundOpacity: true,
-  }
+  },
 };
