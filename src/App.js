@@ -10,7 +10,6 @@ import Introduction from "./Components/Introduction";
 import Resume from "./Components/Resume";
 import FAQs from "./Components/FAQs";
 import Footer from "./Components/Footer";
-// import SignUp from "./Components/SignUp";
 import SignupForm from "./Components/SignupForm";
 
 function App() {
@@ -29,7 +28,6 @@ function App() {
           <Footer />
         </Route>
         <Route path="/sign-up">
-          {/* <SignUp /> */}
           <SignupForm />
         </Route>
       </Switch>
